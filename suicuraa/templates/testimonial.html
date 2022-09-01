@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <link rel="shortcut icon" href="images/favicon.png" type="">
+      <title>Suicura Cosmetics</title>
+      
+
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/css/font-awesome.min.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/css/bootstrap.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/css/style.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/css/responsive.css') }}">
+   </head>
+   <body class="sub_page">
+      <div class="hero_area">
+         <!-- header section strats -->
+         <header class="header_section">
+            <div class="container">
+               <nav class="navbar navbar-expand-lg custom_nav-container ">
+                  <a class="navbar-brand" href="http://127.0.0.1:5000/"><img width="200" src="{{ url_for('static',filename='styles/images/logo.png') }}" /></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class=""> </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="http://127.0.0.1:5000/">Acceuil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></a>
+                           <ul class="dropdown-menu">
+                              <li><a href="http://127.0.0.1:5000/about">Qui somme nous</a></li>
+                              <li><a href="http://127.0.0.1:5000/testimonial">Notre esprit</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="http://127.0.0.1:5000/product">Nos produits</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="http://127.0.0.1:5000/blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="http://127.0.0.1:5000/contact">Contact</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">
+                              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                                 <g>
+                                    <g>
+                                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
+                                          c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
+                                    </g>
+                                 </g>
+                                 <g>
+                                    <g>
+                                       <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
+                                          C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
+                                          c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
+                                          C457.728,97.71,450.56,86.958,439.296,84.91z" />
+                                    </g>
+                                 </g>
+                                 <g>
+                                    <g>
+                                       <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
+                                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
+                                    </g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                                 <g>
+                                 </g>
+                              </svg>
+                           </a>
+                        </li>
+                        <form class="form-inline">
+                           <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                           <i class="fa fa-search" aria-hidden="true"></i>
+                           </button>
+                        </form>
+                        
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </header>
+         <!-- end header section -->
+      </div>
+      <!-- inner page section -->
+      <section class="inner_page_head">
+         <div class="container_fuild">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="full">
+                     <h3>Avis Client</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end inner page section -->
+      <!-- client section -->
+       <section class="client_section layout_padding">
+         <div class="container">
+            <div class="heading_container heading_center">
+               <h2>
+                  Avis Clients
+               </h2>
+            </div>
+            <div id="carouselExample3Controls" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="box col-lg-10 mx-auto">
+                        <div class="img_container">
+                           <div class="img-box">
+                              <div class="img_box-inner">
+                                 <img src="{{ url_for('static',filename='styles/images/client.jfif') }}" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="detail-box">
+                           <h5>
+                              Ahlam CHAKIR
+                           </h5>
+                           <h6>
+                              Cliente
+                           </h6>
+                           <p>
+                              L’essayer c’est l’adopter. Bien plus facile de gérer la quantité qu’avec une shampoing liquide. La on sait tout de suite quand il y en a assez, place aux économies !
+                              Ne rend pas le cheveux sec, et ca c’est déjà incroyable.
+                              je recommande !
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="box col-lg-10 mx-auto">
+                        <div class="img_container">
+                           <div class="img-box">
+                              <div class="img_box-inner">
+                                 <img src="{{ url_for('static',filename='styles/images/client.jfif') }}" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="detail-box">
+                           <h5>
+                              Ilham OUAHID
+                           </h5>
+                           <h6>
+                              Cliente
+                           </h6>
+                           <p>
+                              Ça a été mon tout premier achat de la gamme et j’ai immédiatement adoré. Il est hyper joli: j’adore regarder et toucher le petit “dessin” dessus, la prise en main est top et j’adore le fait qu’il soit aussi généreux: rares sont les shampoings solides aussi volumineux.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="box col-lg-10 mx-auto">
+                        <div class="img_container">
+                           <div class="img-box">
+                              <div class="img_box-inner">
+                                 <img src="{{ url_for('static',filename='styles/images/client.jfif') }}" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="detail-box">
+                           <h5>
+                              Samia ACHAKOUR
+                           </h5>
+                           <h6>
+                              Cliente
+                           </h6>
+                           <p>
+                              J'ai adoré ce shampoing solide un réel coup de coeur ! Le format solide est top il se glisse partout grâce à son format ultra compact. J'adore le fait qu'il y ait des huiles essentielles c'est un gage de qualité. De plus il sent divinement bon l'odeur est exceptionnelle. Il mousse super bien et est très agréable à utiliser. Il laisse les cheveux bien propres et vraiment tout doux un grand coup de coeur !
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel_btn_box">
+                  <a class="carousel-control-prev" href="#carouselExample3Controls" role="button" data-slide="prev">
+                  <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                  <span class="sr-only">Précédente</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExample3Controls" role="button" data-slide="next">
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  <span class="sr-only">suivant</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end client section -->
+      <!-- footer section -->
+      <footer class="footeer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="full">
+                     <div class="logo_footer">
+                        <a href="#"><img width="100" src="{{ url_for('static',filename='styles/images/logo.jpeg') }}" alt="#" /></a>
+                     </div>
+                     <div class="information_f">
+                        <p><strong>ADDRESS:</strong> Enactus, FSTG Marrakech</p>
+                        <p><strong>TELEPHONE:</strong> 06 67 89 67 45</p>
+                        <p><strong>EMAIL:</strong> Suicura.Cosmetics@gmail.com</p>
+                     </div>
+
+                  </div>
+
+               </div>
+               
+               <div class="col-md-8">
+                  <div class="row">
+                  <div class="col-md-7">
+                     <div class="row">
+                        <div class="col-md-6">
+                     <div class="widget_menu">
+                        <h3>Menu</h3>
+                        <ul>
+                           <li><a href="#">Acceuil</a></li>
+                           <li><a href="#">Qui somme-Nous</a></li>
+                           <li><a href="#">Nos Produits</a></li>
+                           <li><a href="#">Nos clients</a></li>
+                           <li><a href="#">Blog</a></li>
+                           <li><a href="#">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="widget_menu">
+                        <h3>Account</h3>
+                        <ul>
+                           <li><a href="#">Compte</a></li>
+                           <li><a href="#">paiement</a></li>
+                           <li><a href="#">Se connecter</a></li>
+                           <li><a href="#">S'inscrre</a></li>
+                           <li><a href="#">Commandez</a></li>
+                           <li><a href="#">Produits</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                     </div>
+                  </div>     
+                  <div class="col-md-5">
+                     <div class="widget_menu">
+                        <h3>Nouveautés !!</h3>
+                        <div class="information_f">
+                           <p>Abonnez-vous à notre Site et obtenez la mise à jour .</p>
+                        </div>
+                        <div class="form_sub">
+                           <form>
+                              <fieldset>
+                                 <div class="field">
+                                    <input type="email" placeholder="votre email" name="email" />
+                                    <input type="submit" value="Subscribe" />
+                                 </div>
+                              </fieldset>
+                           </form>
+                        </div>
+                        <div class="footer_social">
+                        <a href="">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        </a>
+                     </div>
+                        
+                     </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- footer section -->
+      <!-- jQery -->
+      <script src="{{ url_for('static',filename='styles/js/jquery-3.4.1.min.js') }}"></script>
+      <script src="{{ url_for('static',filename='styles/js/js/popper.min.js') }}"></script>
+
+      <script src="{{ url_for('static',filename='styles/js/bootstrap.js') }}"></script>
+
+      <script src="{{ url_for('static',filename='styles/js/js/custom.js') }}"></script>
+   </body>
+</html>
